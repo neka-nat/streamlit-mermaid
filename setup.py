@@ -19,8 +19,8 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     keywords="mermaid streamlit streamlit-component",
-    python_requires=">=3.10",
+    python_requires=">=3.9",
     install_requires=[
-        "streamlit >= 1.24.1",
+        "streamlit >= 1.0.0",
     ],
 )

@@ -8,8 +8,8 @@ readme = "README.md"
 packages = [{include = "streamlit_mermaid"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
-streamlit = "^1.24.1"
+python = "^3.9"
+streamlit = "^1.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
