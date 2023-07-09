@@ -5,7 +5,7 @@ with open('README.md') as readme_file:
 
 setuptools.setup(
     name="streamlit-mermaid",
-    version="0.1.0",
+    version="0.2.0",
     author="nakanat",
     author_email="nekanat.stock@gmail.com",
     description="A streamlit component, to visualize mermaid",

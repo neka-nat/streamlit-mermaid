@@ -9,7 +9,7 @@ import mermaid from 'mermaid';
 
 function MermaidViwer({args}: ComponentProps): ReactElement {
   const ref = useRef<HTMLDivElement>(null);
-  const { code, height } = args;
+  const { code, width, height } = args;
 
   useEffect(() => {
     Streamlit.setFrameHeight();
@@ -25,7 +25,7 @@ function MermaidViwer({args}: ComponentProps): ReactElement {
     }
   }, [code]);
 
-  return <div ref={ref} style={{height: height}} ></div>;
+  return <div ref={ref} style={{width: width, height: height, overflow: "auto"}} ></div>;
 }
 
 export default withStreamlitConnection(MermaidViwer)
