@@ -19,8 +19,7 @@ graph TD
     A --> B
 """
 
-mermaid = stmd.st_mermaid(code)
-st.write(mermaid)
+stmd.st_mermaid(code)
 ```
 
 ```bash

@@ -34,5 +34,4 @@ if not _RELEASE:
         D --> E
     """
 
-    mermaid = st_mermaid(code)
-    st.write(mermaid)
+    st_mermaid(code)
