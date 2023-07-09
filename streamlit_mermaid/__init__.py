@@ -18,8 +18,8 @@ else:
     _streamlit_mermaid = components.declare_component("streamlit_mermaid", path=build_dir)
 
 
-def st_mermaid(code: str, key=None):
-    return _streamlit_mermaid(code=code, key=key)
+def st_mermaid(code: str, height="250px", key=None):
+    return _streamlit_mermaid(code=code, height=height, key=key)
 
 
 # Test code to play with the component while it's in development.
