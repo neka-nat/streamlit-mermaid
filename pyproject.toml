@@ -5,6 +5,8 @@ description = ""
 authors = ["nekanat <nekanat.stock@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+exclude = ["**/node_modules/**/*", "**/frontend/src/**/*", "**/.yarn/**/*"]
+include = ["**/frontend/build/**/*"]
 packages = [{include = "streamlit_mermaid"}]
 
 [tool.poetry.dependencies]
