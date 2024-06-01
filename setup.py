@@ -11,7 +11,7 @@ setuptools.setup(
     description="A streamlit component, to visualize mermaid",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://github.com/AI-Yash/st-chat",
+    url="https://github.com/neka-nat/streamlit-mermaid",
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[
