@@ -23,7 +23,7 @@ stmd.st_mermaid(code)
 ```
 
 ```bash
-streamlit run examples/example.py
+streamlit run examples/mermaid_example.py
 ```
 
 ![demo](demo.gif)
